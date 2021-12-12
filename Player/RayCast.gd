@@ -3,7 +3,9 @@ extends RayCast
 onready var Player = get_node("/root/Game/Player")
 
 func _physics_process(_delta):
-	if is_colliding():
+	if !is_colliding():
+		Player.target = null
+	elif is_colliding():
 		Player.target = get_collider()
 		var pos = get_collision_point()
 		$Reticle.global_transform.origin = pos
