@@ -10,6 +10,8 @@ Built using Godot 3.3.3
 https://kenney.nl/assets/animated-characters-2  
 https://kenney.nl/assets/blaster-kit  
 https://www.patreon.com/posts/blender-export-16916038  
+https://kenney.nl/assets/space-kit  
+https://ambientcg.com/  
 
 ## Future Development
 
